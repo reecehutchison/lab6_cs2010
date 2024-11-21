@@ -45,7 +45,7 @@ void print_allocated_list(alloc_list& allocated_list) {
         int first=allocated_list[i].first.first;
         int second=allocated_list[i].first.second;
         int third=allocated_list[i].second;
-        if(i%5==0&&i!=0)
+        if(i%4==0&&i!=0)
             cout << endl;
         cout << "[{" << first << ", " << second << "}, " << third << "]";
         if(i!=n-1)
